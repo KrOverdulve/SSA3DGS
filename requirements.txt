@@ -1,0 +1,34 @@
+# PyTorch is assumed to be installed first (see README / Dockerfile):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Gaussian-splatting rasterizer (CUDA kernels are JIT-compiled on first use)
+gsplat==1.5.3
+
+# COLMAP scene parsing
+git+https://github.com/KrOverdulve/pycolmap
+
+# Interactive training viewer
+viser
+git+https://github.com/nerfstudio-project/nerfview@4538024fe0d15fd1a0e4d760f3695fc44ca72787
+splines
+
+# Core
+jaxtyping
+numpy<2.0.0
+tyro>=0.8.8
+tqdm
+pyyaml
+typing_extensions
+
+# Images / metrics
+imageio[ffmpeg]
+opencv-python
+Pillow
+matplotlib
+scikit-learn
+torchmetrics[image]
+pytorch-msssim
+flip-evaluator
+
+# Synthetic artifact generation (prepare_watermark_dataset.py)
+albumentationsx

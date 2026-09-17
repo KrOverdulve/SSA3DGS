@@ -1,0 +1,22 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Data and results (see README for the expected layout)
+data/
+outputs/
+results/
+
+# Environments
+.env
+.venv
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+
+# Logs
+*.log
