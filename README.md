@@ -1,4 +1,4 @@
-# SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting
+# SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting [WACV 2027]
 
 Kristof Overdulve, Lode Jorissen, Nick Michiels
 Digital Future Lab, Flanders Make, Hasselt University
